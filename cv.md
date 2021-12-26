@@ -46,3 +46,6 @@ Learning mini-projects (html&css, js):
 - [Certificate](https://stepik.org/cert/1104103 "certificate") from [Stepik](https://stepik.org/ "Stepik")
 - [EPAM training](https://training.epam.ua/ "EPAM") (RS School)
 
+## English
+Intermediate(B1) level by the online [test](https://www.efset.org/ "english") results.
+![English level](https://i.ibb.co/QjMr38J/english-level.png "english level")
