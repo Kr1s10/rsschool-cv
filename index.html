@@ -13,95 +13,103 @@
 </head>
 <body>
     <div class="wrapper">
-        <header>
-            <img src="/img/photo.jpg" alt="my photo">
-            <div class="abot-me">
-                <h1>Kristina Khudaverdian</h1>
-                <h2 class="profession">Junior Front-End Developer</h2>
-                <p class="about-me-text">
-                    My priority is to work on real projects as a team. I recently started my career as a web developer, so I have little experience, but I am ready to overcome difficulties and gain experience with new knowledge. I know that I will achieve my goals, because I am a persistent person and it is interesting for me to develop in this area.
-                </p>
-                <span class="hr"><hr></span>
-            </div>
-        </header>
-        <main>
-            <div class="main">
-                <div class="projects">
-                    <h2>Experience</h2>
-                    <p class="projects-text">Learning mini-projects (html&css, js):</p>
-                    <ul class="projects-list">
-                        <li><a href="https://jsfiddle.net/kr1s10/52c76tak/"><img src="/img/slider.png" alt="slider"></a></li>
-                        <li><a href="https://jsfiddle.net/kr1s10/5coapeyt/1/"><img src="/img/magic board.png" alt="magic board"></a></li>
-                        <li><a href="https://jsfiddle.net/kr1s10/dsreypz6/"><img src="/img/game.png" alt="game"></a></li>
-                        <li><a href="https://hookahquiz.netlify.app/"><img src="/img/quiz.png" alt="quiz"></a></li>
-                    </ul>
+        <div class="content">
+            <header>
+                <div class="photo-block">
+                    <img class="my-photo" src="img/photo.jpg" alt="my photo">
                 </div>
-                <pre class="code-example">
-                    <h2>Code example</h2>
-                    <p><span class="kata-text">Kata from Codewars:</span> write function bmi that calculates body mass index.</p>
-                    <code>
-                        function bmi(weight, height) {
-
-                            const bmi  = weight / (height * height);
-                        
-                            return bmi <= 18.5 ? "Underweight" : bmi <= 25 ? "Normal" : bmi <= 30 ? "Overweight" : "Obese";
-                        
-                        }
-                    </code>
-                </pre>
-                <div class="english-level">
-                    <h2>English</h2>
-                    <p class="english-text">Intermediate(B1) level by the online <a href="https://www.efset.org/">test</a> results.</p>
-                    <img class="image-english-level" src="/img/english-level.png" alt="english-level">
+                <div class="about-me">
+                    <h1>Kristina Khudaverdian</h1>
+                    <h2 class="profession">Junior Front-End Developer</h2>
+                    <p class="about-me-text">
+                        My priority is to work on real projects as a team. I recently started my career as a web developer, so I have little experience, but I am ready to overcome difficulties and gain experience with new knowledge. I know that I will achieve my goals, because I am a persistent person and it is interesting for me to develop in this area.
+                    </p>
                 </div>
-            </div>
-            <aside class="sidebar">
-                <div class="contacts">
-                    <h2>Contacts</h2>
-                    <ul class="contacts-list">
-                        <li>
-                            <img class="icon-phone" src="https://img.icons8.com/ios-filled/2x/ffffff/apple-phone.png" alt="phone logo">
-                            <a href="tel:+380632253171">+380 63 225-31-71</a>
-                        </li>
-                        <li>
-                            <img class="icon-mail" src="https://img.icons8.com/ios-filled/2x/ffffff/apple-mail.png" alt="mail logo">
-                            <a href="mailto:kr1s10.khud@gmail.com">kr1s10.khud@gmail.com</a>
-                        </li>
-                        <li>
-                            <img class="icon-discord" src="https://img.icons8.com/ios-filled/2x/ffffff/discord-logo.png" alt="discord logo">
-                            <span class="discord">Kristen (@Kr1s10)</span>
-                        </li>
-                        <li>
-                            <a href="https://t.me/Kr1s10"><img class="icon-telegram" src="https://img.icons8.com/ios-filled/2x/ffffff/telegram-app.png" alt="telegram logo"></a>
-                        </li>
-                    </ul>
+            </header>
+            <main>
+                <div class="main">
+                    <div class="projects">
+                        <h2>Experience</h2>
+                        <p class="projects-text">Learning mini-projects (html&css, js):</p>
+                        <ul class="projects-list">
+                            <li><a href="https://jsfiddle.net/kr1s10/52c76tak/"><img class="image-projects" src="img/slider.png" alt="slider"></a></li>
+                            <li><a href="https://jsfiddle.net/kr1s10/5coapeyt/1/"><img class="image-projects" src="img/magic-board.png" alt="magic board"></a></li>
+                            <li><a href="https://jsfiddle.net/kr1s10/dsreypz6/"><img class="image-projects" src="img/game.png" alt="game"></a></li>
+                            <li><a href="https://hookahquiz.netlify.app/"><img class="image-projects" src="img/quiz.png" alt="quiz"></a></li>
+                        </ul>
+                    </div>
+                    <div class="code-example">
+                        <h2>Code example</h2>
+                        <p><span class="kata-text">Kata from Codewars:</span> write function bmi that calculates body mass index.</p>
+                        <pre>
+                            <code>
+            function bmi (weight, height) {
+    
+                const bmi  = weight / (height * height);
+    
+                return bmi &lt;= 18.5 ? 'Underweight' : 
+                bmi &lt;= 25 ? 'Normal' : 
+                bmi &lt;= 30 ? 'Overweight' : 'Obese';
+    
+            }</code>
+                        </pre>
+                    </div>
+                    <div class="english-level">
+                        <h2>English</h2>
+                        <p class="english-text">Intermediate<span class="test">(B1)</span> level by the online <a href="https://www.efset.org/"><span class="test">test</span></a> results.</p>
+                        <img class="image-english-level" src="img/english-level.png" alt="english-level">
+                    </div>
                 </div>
-                <div class="skills">
-                    <h2>Skills</h2>
-                    <ul class="skills">
-                        <li>HTML5 & CSS3</li>
-                        <li>JavaScript basics</li>
-                        <li>PHP basics</li>
-                        <li>Git / GitHub</li>
-                        <li>Figma, Photoshop</li>
-                    </ul>
-                </div>
-                <div class="education">
-                    <h2>Education</h2>
-                    <h3>Courses:</h3>
-                    <ul class="courses-list">
-                        <li><a href="https://www.w3schools.com/default.asp">W3S tutorials</a></li>
-                        <li><a href="https://cs50.harvard.edu/">CS50 lectures</a></li>
-                        <li><a href="https://stepik.org/cert/1104103">Certificate</a> from <a href="https://stepik.org/">Stepik</a></li>
-                        <li><a href="https://training.epam.ua/">EPAM training (RS School)</a></li>
-                    </ul>
-                </div>
-            </aside>
-        </main>
+                <aside class="sidebar">
+                    <div class="contacts">
+                        <h2>Contacts</h2>
+                        <ul class="contacts-list">
+                            <li class="contacts-flexbox">
+                                <img class="icon" src="https://img.icons8.com/ios-filled/2x/ffffff/apple-phone.png" alt="phone logo">
+                                <a class="contacts-link" href="tel:+380632253171"><span class="span-contact-link">+380 63 225-31-71</span></a>
+                            </li>
+                            <li class="contacts-flexbox">
+                                <img class="icon" src="https://img.icons8.com/ios-filled/2x/ffffff/apple-mail.png" alt="mail logo">
+                                <a class="contacts-link" href="mailto:kr1s10.khud@gmail.com"><span class="span-contact-link">kr1s10.khud<span class="test">@</span>gmail.com</span></a>
+                            </li>
+                            <li class="contacts-flexbox">
+                                <img class="icon" src="https://img.icons8.com/ios-filled/2x/ffffff/discord-logo.png" alt="discord logo">
+                                <span class="discord">Kristen (<span class="test">@Kr1s10</span>)</span>
+                            </li>
+                            <li class="telegram">
+                                <a href="https://t.me/Kr1s10"><img class="icon" src="https://img.icons8.com/ios-filled/2x/ffffff/telegram-app.png" alt="telegram logo"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skills">
+                        <h2>Skills</h2>
+                        <ul class="skills-list">
+                            <li><span class="skills-item">HTML5 <span class="test">&</span> CSS3</span> </li>
+                            <li><span class="skills-item">JavaScript basics</span></li>
+                            <li><span class="skills-item">PHP basics</span></li>
+                            <li><span class="skills-item">Git <span class="test">/</span> GitHub</span></li>
+                            <li><span class="skills-item">Figma<span class="test">,</span> Photoshop</span></li>
+                        </ul>
+                    </div>
+                    <div class="education">
+                        <h2>Education</h2>
+                        <h3>Courses:</h3>
+                        <ul class="courses-list">
+                            <li><span class="test">-</span> <a href="https://www.w3schools.com/default.asp">W3S tutorials</a></li>
+                            <li><span class="test">-</span> <a href="https://cs50.harvard.edu/">CS50 lectures</a></li>
+                            <li><span class="test">-</span> <a href="https://stepik.org/cert/1104103">Certificate</a> <span class="test">from</span> <a href="https://stepik.org/">Stepik</a></li>
+                            <li><span class="test">-</span> <a href="https://training.epam.ua/">EPAM training (<span class="test">RS School</span>)</a></li>
+                        </ul>
+                    </div>
+                </aside>
+            </main>
+        </div>
         <footer>
-            <a href="https://github.com/Kr1s10"><img class="icon-github" src="https://img.icons8.com/ios-glyphs/2x/ffffff/github.png" alt="github logo"></a>
             <a href="https://rs.school/js/"><img class="rs-school-logo" src="https://rs.school/images/rs_school_js.svg" alt="rs school logo"></a>
             <span class="year">CREATED IN 2022</span>
+            <a href="https://github.com/Kr1s10"><img class="icon-github" src="https://img.icons8.com/ios-glyphs/60/000000/github.png" alt="github logo"></a>
+            
+            
         </footer>
     </div>
 </body>
