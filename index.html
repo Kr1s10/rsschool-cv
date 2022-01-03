@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <base target="_blank">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="/img/photo.jpg" alt="my photo">
+            <div class="abot-me">
+                <h1>Kristina Khudaverdian</h1>
+                <h2 class="profession">Junior Front-End Developer</h2>
+                <p class="about-me-text">
+                    My priority is to work on real projects as a team. I recently started my career as a web developer, so I have little experience, but I am ready to overcome difficulties and gain experience with new knowledge. I know that I will achieve my goals, because I am a persistent person and it is interesting for me to develop in this area.
+                </p>
+                <span class="hr"><hr></span>
+            </div>
+        </header>
+        <main>
+            <div class="main">
+                <div class="projects">
+                    <h2>Experience</h2>
+                    <p class="projects-text">Learning mini-projects (html&css, js):</p>
+                    <ul class="projects-list">
+                        <li><a href="https://jsfiddle.net/kr1s10/52c76tak/"><img src="/img/slider.png" alt="slider"></a></li>
+                        <li><a href="https://jsfiddle.net/kr1s10/5coapeyt/1/"><img src="/img/magic board.png" alt="magic board"></a></li>
+                        <li><a href="https://jsfiddle.net/kr1s10/dsreypz6/"><img src="/img/game.png" alt="game"></a></li>
+                        <li><a href="https://hookahquiz.netlify.app/"><img src="/img/quiz.png" alt="quiz"></a></li>
+                    </ul>
+                </div>
+                <pre class="code-example">
+                    <h2>Code example</h2>
+                    <p><span class="kata-text">Kata from Codewars:</span> write function bmi that calculates body mass index.</p>
+                    <code>
+                        function bmi(weight, height) {
+
+                            const bmi  = weight / (height * height);
+                        
+                            return bmi <= 18.5 ? "Underweight" : bmi <= 25 ? "Normal" : bmi <= 30 ? "Overweight" : "Obese";
+                        
+                        }
+                    </code>
+                </pre>
+                <div class="english-level">
+                    <h2>English</h2>
+                    <p class="english-text">Intermediate(B1) level by the online <a href="https://www.efset.org/">test</a> results.</p>
+                    <img class="image-english-level" src="/img/english-level.png" alt="english-level">
+                </div>
+            </div>
+            <aside class="sidebar">
+                <div class="contacts">
+                    <h2>Contacts</h2>
+                    <ul class="contacts-list">
+                        <li>
+                            <img class="icon-phone" src="https://img.icons8.com/ios-filled/2x/ffffff/apple-phone.png" alt="phone logo">
+                            <a href="tel:+380632253171">+380 63 225-31-71</a>
+                        </li>
+                        <li>
+                            <img class="icon-mail" src="https://img.icons8.com/ios-filled/2x/ffffff/apple-mail.png" alt="mail logo">
+                            <a href="mailto:kr1s10.khud@gmail.com">kr1s10.khud@gmail.com</a>
+                        </li>
+                        <li>
+                            <img class="icon-discord" src="https://img.icons8.com/ios-filled/2x/ffffff/discord-logo.png" alt="discord logo">
+                            <span class="discord">Kristen (@Kr1s10)</span>
+                        </li>
+                        <li>
+                            <a href="https://t.me/Kr1s10"><img class="icon-telegram" src="https://img.icons8.com/ios-filled/2x/ffffff/telegram-app.png" alt="telegram logo"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h2>Skills</h2>
+                    <ul class="skills">
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript basics</li>
+                        <li>PHP basics</li>
+                        <li>Git / GitHub</li>
+                        <li>Figma, Photoshop</li>
+                    </ul>
+                </div>
+                <div class="education">
+                    <h2>Education</h2>
+                    <h3>Courses:</h3>
+                    <ul class="courses-list">
+                        <li><a href="https://www.w3schools.com/default.asp">W3S tutorials</a></li>
+                        <li><a href="https://cs50.harvard.edu/">CS50 lectures</a></li>
+                        <li><a href="https://stepik.org/cert/1104103">Certificate</a> from <a href="https://stepik.org/">Stepik</a></li>
+                        <li><a href="https://training.epam.ua/">EPAM training (RS School)</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </main>
+        <footer>
+            <a href="https://github.com/Kr1s10"><img class="icon-github" src="https://img.icons8.com/ios-glyphs/2x/ffffff/github.png" alt="github logo"></a>
+            <a href="https://rs.school/js/"><img class="rs-school-logo" src="https://rs.school/images/rs_school_js.svg" alt="rs school logo"></a>
+            <span class="year">CREATED IN 2022</span>
+        </footer>
+    </div>
+</body>
+</html>
