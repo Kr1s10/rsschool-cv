@@ -1,0 +1,236 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #e6dae9;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 70%;
+    max-width: 1200px;
+    margin: 50px auto 0;
+    min-height: 100vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content {
+    box-shadow: 0 0 20px 1px #2e0041;
+}
+
+header {
+    display: flex;
+}
+
+.my-photo {
+    width: 80%;
+    border-radius: 30%;
+    border: 5px #fcdd2ed0 double;
+}
+
+.photo-block {
+    background: #b796ce;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px #ffffff solid;
+} 
+
+.sidebar {
+    background: #b796ce;
+    width: 35%;
+    padding: 40px;
+}
+
+.about-me {
+    width: 65%;
+    background: #ffffff;
+    border-bottom: 3px #b796ce solid;
+}
+
+.main {
+    width: 65%;
+    background: #ffffff;
+}
+
+h1 {
+    color: #895aaa;
+    text-align: center;
+    font-size: 45px;
+    margin: 50px 0 20px 0;
+}
+
+.profession {
+    color: #fae100;
+    font-size: 30px;
+    text-align: end;
+    padding-right: 40px;
+}
+
+.about-me-text {
+    font-size: 20px;
+    padding: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.main {
+    padding: 40px;
+}
+
+.projects-text {
+    color: #fae100;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style-type: none;
+}
+
+.image-projects {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.main h2 {
+    color: #895aaa;
+    font-size: 30px;
+}
+
+pre {
+    background: #d8d7d3;
+    border-radius: 10px;
+}
+
+code {
+    font-size: 18px;
+}
+
+.kata-text {
+    font-weight: 700;
+    color: #fae100;
+}
+
+.code-example p,
+ .english-level p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.code-example, 
+.english-level {
+    margin-top: 40px;
+}
+
+.test, h3 {
+    color: #fae100;
+}
+
+.english-level a :hover, 
+.contacts a :hover {
+    text-decoration: underline;
+}
+
+.image-english-level {
+    width: 100%;
+}
+
+.sidebar h2 {
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.contacts, 
+.skills {
+    margin-bottom: 40px;
+}
+
+.contacts-list li {
+    margin-top: 10px;
+}
+
+.contacts-flexbox {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 12%;
+    margin-right: 10px;
+}
+
+.contacts-link, 
+.discord {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.telegram a :hover {
+    border: 3px #ffffff solid;
+    border-radius: 10px;
+}
+
+.skills-list {
+    padding-left: 20px;
+}
+
+.skills li {
+    list-style-type: disc;
+    color: #fae100;
+    font-size: 20px;
+}
+
+.skills-item {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 25px;
+    margin: -35px 0 25px 0;
+}
+
+.courses-list a, 
+.courses-list li {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.rs-school-logo {
+    width: 50%;
+}
+
+.year {
+    color: #3f0058;
+    font-weight: 600;
+}
